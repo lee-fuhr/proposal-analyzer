@@ -1,6 +1,6 @@
 /**
  * Stripe Checkout API Route
- * Proposal Analyzer - $100
+ * Proposal Analyzer - $97
  */
 
 import { NextRequest, NextResponse } from 'next/server';
@@ -9,7 +9,7 @@ import Stripe from 'stripe';
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!);
 
 const TOOL_NAME = 'Proposal Analyzer';
-const TOOL_PRICE = 100;
+const TOOL_PRICE = 97;
 
 export async function POST(request: NextRequest) {
   try {

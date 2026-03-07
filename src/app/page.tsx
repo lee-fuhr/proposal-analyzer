@@ -295,7 +295,7 @@ export default function HomePage() {
             </svg>
           </p>
           <h2 className="text-section text-4xl md:text-5xl lg:text-6xl mb-6 text-center">
-            Top issues free. <span className="text-[var(--muted-foreground)]">Full analysis $200.</span>
+            Top issues free. <span className="text-[var(--muted-foreground)]">Full analysis $97.</span>
           </h2>
           <p className="text-body text-lg text-[var(--muted-foreground)] text-center mb-16 max-w-2xl mx-auto">
             The free preview alone is enough to fix a proposal today. The full analysis is what proposal consultants charge $2,000+ for.
@@ -342,7 +342,7 @@ export default function HomePage() {
                 COMPLETE
               </div>
               <div className="flex items-center gap-3 mb-4">
-                <span className="bg-[var(--accent)] text-[var(--accent-foreground)] px-3 py-1 text-sm font-bold">$200</span>
+                <span className="bg-[var(--accent)] text-[var(--accent-foreground)] px-3 py-1 text-sm font-bold">$97</span>
                 <span className="text-section text-xl">Full analysis</span>
               </div>
               <p className="text-body text-sm text-[var(--muted-foreground)] mb-6">Win one $50K bid = 250× ROI</p>
@@ -376,7 +376,7 @@ export default function HomePage() {
       {/* What's in the full report */}
       <section className="px-4 md:px-8 lg:px-12 py-20 md:py-28 bg-[var(--muted)]">
         <div className="max-w-6xl mx-auto">
-          <p className="text-label mb-4">WHAT YOU GET FOR $200</p>
+          <p className="text-label mb-4">WHAT YOU GET FOR $97</p>
           <h2 className="text-section text-4xl md:text-5xl lg:text-6xl mb-12">
             The most actionable proposal audit
             <br />
@@ -459,7 +459,7 @@ export default function HomePage() {
       </section>
 
       {/* ROI calculation - Interactive */}
-      <ROICalculator toolCost={200} />
+      <ROICalculator toolCost={97} />
 
       {/* Before/After Examples */}
       <section className="px-4 md:px-8 lg:px-12 py-20 md:py-28 border-t-2 border-[var(--border)]">
@@ -643,7 +643,7 @@ export default function HomePage() {
             Stop losing bids to commodity messaging
           </h2>
           <p className="text-body text-xl mb-8">
-            Upload your proposal. Top 10 issues free. Full analysis $200.
+            Upload your proposal. Top 10 issues free. Full analysis $97.
           </p>
           <button
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
