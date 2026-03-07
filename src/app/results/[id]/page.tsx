@@ -744,21 +744,24 @@ export default function FullResultsPage() {
         </div>
       </section>
 
-      {/* Coaching Upsell */}
-      <section className="px-4 md:px-8 lg:px-12 py-12 border-t border-[var(--border)]">
+      {/* Retainer Upsell */}
+      <section className="px-4 md:px-8 lg:px-12 py-12 bg-[var(--accent)]">
         <div className="max-w-3xl mx-auto text-center">
-          <p className="text-label mb-4">WANT MORE HELP?</p>
-          <h2 className="text-section text-2xl mb-4">
-            90-minute proposal coaching session
+          <p className="text-label mb-4 text-[var(--accent-foreground)] opacity-70">WANT THIS FIXED PROPERLY?</p>
+          <h2 className="text-display text-2xl md:text-3xl mb-4 text-[var(--accent-foreground)]">
+            I do this every day for manufacturers.
           </h2>
-          <p className="text-body text-lg mb-8">
-            Walk through your proposal with me. We&apos;ll rewrite the worst sections together and create a messaging strategy you can reuse.
+          <p className="text-[var(--accent-foreground)] text-lg mb-3 opacity-90">
+            The audit shows you what&apos;s broken. My retainer fixes it — proposals, website, positioning, the whole messaging system. 27 years. Starts at $750/month.
+          </p>
+          <p className="text-[var(--accent-foreground)] opacity-60 text-sm mb-8">
+            Most clients pay for themselves within the first month.
           </p>
           <a
-            href="mailto:lee@leefuhr.com?subject=Proposal%20Coaching%20Session"
-            className="btn-kinetic text-lg"
+            href="mailto:hi@leefuhr.com?subject=Interested in working together — saw Proposal Analyzer"
+            className="btn-reversed inline-block"
           >
-            Book a session — $1,500
+            Email Lee →
           </a>
         </div>
       </section>
@@ -767,7 +770,7 @@ export default function FullResultsPage() {
       <footer className="px-4 md:px-8 lg:px-12 py-8 border-t border-[var(--border)]">
         <div className="max-w-[95vw] mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-label">
-            Built by <a href="https://oww.leefuhr.com" className="text-[var(--accent)] hover:underline">Lee Fuhr</a>
+            Built by <a href="https://leefuhr.com" className="text-[var(--accent)] hover:underline">Lee Fuhr</a>
           </p>
           <nav className="flex gap-8">
             <Link href="/" className="text-body text-sm hover:text-[var(--accent)] transition-colors">

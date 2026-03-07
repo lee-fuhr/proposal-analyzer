@@ -285,13 +285,13 @@ function CheckoutContent() {
       <footer className="px-4 md:px-8 lg:px-12 py-8 border-t border-[var(--border)]">
         <div className="max-w-[95vw] mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-label">
-            Built by <a href="https://oww.leefuhr.com" className="text-[var(--accent)] hover:underline">Lee Fuhr</a>
+            Built by <a href="https://leefuhr.com" className="text-[var(--accent)] hover:underline">Lee Fuhr</a>
           </p>
           <nav className="flex gap-8">
             <Link href="/privacy" className="text-body text-sm hover:text-[var(--accent)] transition-colors">
               Privacy
             </Link>
-            <a href="mailto:lee@leefuhr.com" className="text-body text-sm hover:text-[var(--accent)] transition-colors">
+            <a href="mailto:hi@leefuhr.com" className="text-body text-sm hover:text-[var(--accent)] transition-colors">
               Questions?
             </a>
           </nav>

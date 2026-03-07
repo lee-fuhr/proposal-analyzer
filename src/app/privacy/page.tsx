@@ -78,7 +78,7 @@ export default function PrivacyPage() {
                 Questions?
               </h2>
               <p>
-                Email <a href="mailto:lee@leefuhr.com" className="text-[var(--accent)] hover:underline">lee@leefuhr.com</a> with any privacy concerns.
+                Email <a href="mailto:hi@leefuhr.com" className="text-[var(--accent)] hover:underline">hi@leefuhr.com</a> with any privacy concerns.
               </p>
             </div>
 
@@ -95,7 +95,7 @@ export default function PrivacyPage() {
       <footer className="border-t border-[var(--border)] py-8 px-6">
         <div className="max-w-3xl mx-auto text-center">
           <p className="text-body text-sm">
-            The Proposal Analyzer · Built by <a href="https://oww.leefuhr.com" className="text-[var(--accent)] hover:underline">Lee Fuhr</a>
+            The Proposal Analyzer · Built by <a href="https://leefuhr.com" className="text-[var(--accent)] hover:underline">Lee Fuhr</a>
           </p>
         </div>
       </footer>
