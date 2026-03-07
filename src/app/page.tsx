@@ -677,18 +677,26 @@ export default function HomePage() {
 
           {/* More tools */}
           <p className="text-label mb-6 text-center">MORE TOOLS FOR MANUFACTURERS</p>
-          <div className="grid md:grid-cols-3 gap-6">
-            <a href="https://commodity-test-app.vercel.app" className="bg-[var(--background)] p-6 border border-[var(--border)] hover:border-[var(--accent)] transition-colors">
-              <p className="text-section text-lg mb-2">Commodity Test</p>
-              <p className="text-body text-sm text-[var(--muted-foreground)]">Find where your website sounds like everyone else — and get copy that differentiates.</p>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            <a href="https://areyougeneric.com" className="bg-[var(--background)] p-5 border border-[var(--border)] hover:border-[var(--accent)] transition-colors">
+              <p className="text-label text-xs mb-1">FREE</p>
+              <p className="text-section text-base mb-1">Commodity Test</p>
+              <p className="text-body text-xs text-[var(--muted-foreground)]">Score your website messaging in 2 minutes. Free.</p>
             </a>
-            <a href="https://case-study-extractor.vercel.app" className="bg-[var(--background)] p-6 border border-[var(--border)] hover:border-[var(--accent)] transition-colors">
-              <p className="text-section text-lg mb-2">Case Study Extractor</p>
-              <p className="text-body text-sm text-[var(--muted-foreground)]">Turn project photos and invoices into sales-ready case studies in 5 minutes.</p>
+            <a href="https://websiteaudit.leefuhr.com" className="bg-[var(--background)] p-5 border border-[var(--border)] hover:border-[var(--accent)] transition-colors">
+              <p className="text-label text-xs mb-1 text-[var(--accent)]">$400</p>
+              <p className="text-section text-base mb-1">Website Audit</p>
+              <p className="text-body text-xs text-[var(--muted-foreground)]">Full messaging audit — every page, prioritized fix list. 48 hours.</p>
             </a>
-            <a href="https://risk-translator.vercel.app" className="bg-[var(--background)] p-6 border border-[var(--border)] hover:border-[var(--accent)] transition-colors">
-              <p className="text-section text-lg mb-2">Risk Translator</p>
-              <p className="text-body text-sm text-[var(--muted-foreground)]">Translate your specs into risk language that gets purchasing to approve the budget.</p>
+            <a href="https://case-study-extractor.vercel.app" className="bg-[var(--background)] p-5 border border-[var(--border)] hover:border-[var(--accent)] transition-colors">
+              <p className="text-label text-xs mb-1 text-[var(--accent)]">$147</p>
+              <p className="text-section text-base mb-1">Case Study Extractor</p>
+              <p className="text-body text-xs text-[var(--muted-foreground)]">Turn project photos into sales-ready case studies in 5 minutes.</p>
+            </a>
+            <a href="https://risk-translator.vercel.app" className="bg-[var(--background)] p-5 border border-[var(--border)] hover:border-[var(--accent)] transition-colors">
+              <p className="text-label text-xs mb-1 text-[var(--accent)]">$97</p>
+              <p className="text-section text-base mb-1">Risk Translator</p>
+              <p className="text-body text-xs text-[var(--muted-foreground)]">Translate specs into cost-of-failure language that wins budget approval.</p>
             </a>
           </div>
         </div>
